@@ -8,21 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		74B118202A778A7700C31CBF /* iOS_JourneyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B1181F2A778A7700C31CBF /* iOS_JourneyApp.swift */; };
-		74B118222A778A7800C31CBF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B118212A778A7800C31CBF /* ContentView.swift */; };
+		74B118222A778A7800C31CBF /* PortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B118212A778A7800C31CBF /* PortfolioView.swift */; };
 		74B118242A778A7800C31CBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74B118232A778A7800C31CBF /* Assets.xcassets */; };
 		74B118272A778A7800C31CBF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74B118262A778A7800C31CBF /* Preview Assets.xcassets */; };
 		74B118342A779D3400C31CBF /* Portfolio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B118332A779D3400C31CBF /* Portfolio.swift */; };
 		74B118362A779E3100C31CBF /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B118352A779E3100C31CBF /* AppModel.swift */; };
+		74B118392A77DDB600C31CBF /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B118382A77DDB600C31CBF /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		74B1181C2A778A7700C31CBF /* iOS Journey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Journey.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74B1181F2A778A7700C31CBF /* iOS_JourneyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_JourneyApp.swift; sourceTree = "<group>"; };
-		74B118212A778A7800C31CBF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		74B118212A778A7800C31CBF /* PortfolioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioView.swift; sourceTree = "<group>"; };
 		74B118232A778A7800C31CBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74B118262A778A7800C31CBF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		74B118332A779D3400C31CBF /* Portfolio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Portfolio.swift; sourceTree = "<group>"; };
 		74B118352A779E3100C31CBF /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		74B118382A77DDB600C31CBF /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +110,8 @@
 		74B118312A778BD900C31CBF /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				74B118212A778A7800C31CBF /* ContentView.swift */,
+				74B118372A77DD9100C31CBF /* Support Views */,
+				74B118212A778A7800C31CBF /* PortfolioView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -119,6 +122,14 @@
 				74B118352A779E3100C31CBF /* AppModel.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		74B118372A77DD9100C31CBF /* Support Views */ = {
+			isa = PBXGroup;
+			children = (
+				74B118382A77DDB600C31CBF /* HeaderView.swift */,
+			);
+			path = "Support Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,8 +202,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74B118392A77DDB600C31CBF /* HeaderView.swift in Sources */,
 				74B118342A779D3400C31CBF /* Portfolio.swift in Sources */,
-				74B118222A778A7800C31CBF /* ContentView.swift in Sources */,
+				74B118222A778A7800C31CBF /* PortfolioView.swift in Sources */,
 				74B118202A778A7700C31CBF /* iOS_JourneyApp.swift in Sources */,
 				74B118362A779E3100C31CBF /* AppModel.swift in Sources */,
 			);
