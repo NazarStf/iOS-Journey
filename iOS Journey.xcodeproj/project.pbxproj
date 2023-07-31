@@ -11,6 +11,8 @@
 		74B118222A778A7800C31CBF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B118212A778A7800C31CBF /* ContentView.swift */; };
 		74B118242A778A7800C31CBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74B118232A778A7800C31CBF /* Assets.xcassets */; };
 		74B118272A778A7800C31CBF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74B118262A778A7800C31CBF /* Preview Assets.xcassets */; };
+		74B118342A779D3400C31CBF /* Portfolio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B118332A779D3400C31CBF /* Portfolio.swift */; };
+		74B118362A779E3100C31CBF /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B118352A779E3100C31CBF /* AppModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		74B118212A778A7800C31CBF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		74B118232A778A7800C31CBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74B118262A778A7800C31CBF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		74B118332A779D3400C31CBF /* Portfolio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Portfolio.swift; sourceTree = "<group>"; };
+		74B118352A779E3100C31CBF /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +55,8 @@
 		74B1181E2A778A7700C31CBF /* iOS Journey */ = {
 			isa = PBXGroup;
 			children = (
-				74B1181F2A778A7700C31CBF /* iOS_JourneyApp.swift */,
-				74B118212A778A7800C31CBF /* ContentView.swift */,
-				74B118232A778A7800C31CBF /* Assets.xcassets */,
-				74B118252A778A7800C31CBF /* Preview Content */,
+				74B1182E2A778BBD00C31CBF /* Code */,
+				74B1182D2A778B3400C31CBF /* Resourses */,
 			);
 			path = "iOS Journey";
 			sourceTree = "<group>";
@@ -65,6 +67,58 @@
 				74B118262A778A7800C31CBF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		74B1182D2A778B3400C31CBF /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				74B118232A778A7800C31CBF /* Assets.xcassets */,
+				74B118252A778A7800C31CBF /* Preview Content */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		74B1182E2A778BBD00C31CBF /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				74B118302A778BD100C31CBF /* Models */,
+				74B118312A778BD900C31CBF /* Views */,
+				74B1182F2A778BC700C31CBF /* Controllers */,
+				74B118322A778BE100C31CBF /* Services */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		74B1182F2A778BC700C31CBF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				74B1181F2A778A7700C31CBF /* iOS_JourneyApp.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		74B118302A778BD100C31CBF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				74B118332A779D3400C31CBF /* Portfolio.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		74B118312A778BD900C31CBF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				74B118212A778A7800C31CBF /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		74B118322A778BE100C31CBF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				74B118352A779E3100C31CBF /* AppModel.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +191,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74B118342A779D3400C31CBF /* Portfolio.swift in Sources */,
 				74B118222A778A7800C31CBF /* ContentView.swift in Sources */,
 				74B118202A778A7700C31CBF /* iOS_JourneyApp.swift in Sources */,
+				74B118362A779E3100C31CBF /* AppModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +322,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"iOS Journey/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"iOS Journey/Resourses/Preview Content\"";
 				DEVELOPMENT_TEAM = 7HMM775WP5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -295,7 +351,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"iOS Journey/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"iOS Journey/Resourses/Preview Content\"";
 				DEVELOPMENT_TEAM = 7HMM775WP5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
