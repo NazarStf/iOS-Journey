@@ -53,7 +53,7 @@ struct ExperienceView: View {
 
 struct ExperienceView_Previews: PreviewProvider {
     static var previews: some View {
-		ExperienceView(experience: AppModel().portfolio.experience[0])
+		ExperienceView(experience: AppModel().portfolio.experiences[0])
 			.padding(24)
     }
 }

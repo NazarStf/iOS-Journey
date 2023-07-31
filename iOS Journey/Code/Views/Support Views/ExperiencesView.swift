@@ -48,7 +48,7 @@ struct ExperiencesView: View {
 struct ExperiencesView_Previews: PreviewProvider {
 	static var previews: some View {
 		GeometryReader { proxy in
-			ExperiencesView(experiences: AppModel().portfolio.experience)
+			ExperiencesView(experiences: AppModel().portfolio.experiences)
 				.padding(24)
 		}
 	}

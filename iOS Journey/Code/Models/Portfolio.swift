@@ -27,5 +27,5 @@ struct Portfolio {
 	let location: String
 	
 	let skills: [Skill]
-	let experience: [Experience]
+	let experiences: [Experience]
 }
