@@ -17,6 +17,7 @@
 		74B1183B2A77F65B00C31CBF /* SkillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B1183A2A77F65B00C31CBF /* SkillView.swift */; };
 		74B1183D2A780E3C00C31CBF /* SkillsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B1183C2A780E3C00C31CBF /* SkillsView.swift */; };
 		74B1183F2A78182800C31CBF /* ExperienceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B1183E2A78182800C31CBF /* ExperienceView.swift */; };
+		74B118412A781B4200C31CBF /* ExperiencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B118402A781B4200C31CBF /* ExperiencesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		74B1183A2A77F65B00C31CBF /* SkillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillView.swift; sourceTree = "<group>"; };
 		74B1183C2A780E3C00C31CBF /* SkillsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillsView.swift; sourceTree = "<group>"; };
 		74B1183E2A78182800C31CBF /* ExperienceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceView.swift; sourceTree = "<group>"; };
+		74B118402A781B4200C31CBF /* ExperiencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperiencesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 				74B1183A2A77F65B00C31CBF /* SkillView.swift */,
 				74B1183C2A780E3C00C31CBF /* SkillsView.swift */,
 				74B1183E2A78182800C31CBF /* ExperienceView.swift */,
+				74B118402A781B4200C31CBF /* ExperiencesView.swift */,
 			);
 			path = "Support Views";
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 				74B1183B2A77F65B00C31CBF /* SkillView.swift in Sources */,
 				74B1183F2A78182800C31CBF /* ExperienceView.swift in Sources */,
 				74B118392A77DDB600C31CBF /* HeaderView.swift in Sources */,
+				74B118412A781B4200C31CBF /* ExperiencesView.swift in Sources */,
 				74B118342A779D3400C31CBF /* Portfolio.swift in Sources */,
 				74B118222A778A7800C31CBF /* PortfolioView.swift in Sources */,
 				74B118202A778A7700C31CBF /* iOS_JourneyApp.swift in Sources */,
