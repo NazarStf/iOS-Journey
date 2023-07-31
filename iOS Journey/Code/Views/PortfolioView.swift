@@ -21,6 +21,7 @@ struct PortfolioView: View {
 			ScrollView(.vertical, showsIndicators: false) {
 				VStack(alignment: .leading) {
 					
+					HeaderView(appModel: appModel)
 				}
 				.padding(24)
 			}
