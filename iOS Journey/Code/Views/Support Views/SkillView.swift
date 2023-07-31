@@ -25,6 +25,7 @@ struct SkillView: View {
 				.fontWeight(.semibold)
 				.font(.body)
 				.padding(.top, 10)
+				.minimumScaleFactor(0.5)
 			
 		}
 		.padding()
