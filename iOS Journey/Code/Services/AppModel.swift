@@ -18,8 +18,8 @@ class AppModel: ObservableObject {
 											Skill(id: UUID().uuidString, skillName: "Editing", image: "wand.and.rays")
 										 ],
 										 experiences: [
-											Experience(id: UUID().uuidString, companyName: "Developing my own training apps", role: "Beginner iOS developer", duration: "Jul 2023 - Present"),
-											Experience(id: UUID().uuidString, companyName: "Completing training courses", role: "Beginner iOS developer", duration: "May 2023 - Jul 2023"),
+											Experience(id: UUID().uuidString, companyName: "Developing my own training apps", role: "Beginner iOS developer", duration: "Aug 2023 - Present"),
+											Experience(id: UUID().uuidString, companyName: "Completing training courses", role: "Beginner iOS developer", duration: "May 2023 - Aug 2023"),
 											Experience(id: UUID().uuidString, companyName: "Learning Swift", role: "Beginner iOS developer", duration: "Mar 2023 - May 2023")
 										 ])
 }
